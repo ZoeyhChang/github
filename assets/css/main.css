@@ -3630,6 +3630,7 @@
 
 		#self .inner article p{
 				text-align: left;
+			    font-weight: 400;
 			}
 
 
@@ -3669,14 +3670,21 @@
 							padding-top: 2em;
 						}
 
+			#self .inner article p{
+			    font-weight: 100;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#self {
 				padding: 2em 0 0.1em 0;
+				
 			}
-
+			#self .inner article p{
+			    font-weight: 100;
+			}
+	
 		}
 
 	#skill {
